@@ -55,7 +55,7 @@
 	position: relative;
 	background:rgba(255,255,255,1);
 	.border{
-		position: relative;
+		position: absolute;
 		top:0;
 		left:30rpx;
 		width:720rpx;
@@ -95,7 +95,7 @@
 	position: relative;
 	background:rgba(255,255,255,1);
 	.border{
-		position: relative;
+		position: absolute;
 		top:0;
 		left:30rpx;
 		width:720rpx;

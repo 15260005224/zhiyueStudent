@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="mine-info">
-			<span>个人设置</span>
+			<span>修改头像</span>
 			<view class="border"></view>
 			<image class="img1" src="../../static/img/touxiang.png" mode=""></image>
 			<image class="img2" src="../../static/img/mineIcon/jiantou.png" mode=""></image>
@@ -55,7 +55,7 @@
 	position: relative;
 	background:rgba(255,255,255,1);
 	.border{
-		position: relative;
+		position: absolute;
 		top:0;
 		left:30rpx;
 		width:720rpx;
@@ -95,7 +95,7 @@
 	position: relative;
 	background:rgba(255,255,255,1);
 	.border{
-		position: relative;
+		position: absolute;
 		top:0;
 		left:30rpx;
 		width:720rpx;
