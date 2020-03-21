@@ -1,0 +1,148 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/book/index",
+			"style": {
+				"navigationBarTitleText": "图书"
+			}
+		},
+        {
+            "path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "知阅学堂"
+			}
+        },
+		
+		{
+		    "path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "评测"
+			}
+		},
+		{
+		    "path": "pages/writting/index",
+			"style": {
+				"navigationBarTitleText": "写作"
+			}
+		},
+		{
+		    "path": "pages/mine/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "我的"
+			}
+		}
+    ],
+	"subPackages": [{
+		"root": "minePage",
+		"pages": [{
+				"path": "mineInfo/info",
+				"style": {
+					"navigationBarTitleText": "消息",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineInfo/comment",
+				"style": {
+					"navigationBarTitleText": "评论",
+					"enablePullDownRefresh": true
+				}
+			}, 
+			{
+				"path": "mineInfo/support",
+				"style": {
+					"navigationBarTitleText": "点赞"
+				}
+			},
+			{
+				"path": "mineInfo/trends",
+				"style": {
+					"navigationBarTitleText": "动态",
+					"enablePullDownRefresh": true
+				}
+			}, 
+			{
+				"path": "mineInfo/follow",
+				"style": {
+					"navigationBarTitleText": "关注",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineInfo/task",
+				"style": {
+					"navigationBarTitleText": "任务",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineUserSet/set",
+				"style": {
+					"navigationBarTitleText": "设置",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineUserSet/about",
+				"style": {
+					"navigationBarTitleText": "关于我们",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineUserSet/drafts",
+				"style": {
+					"navigationBarTitleText": "草稿箱",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "mineUserSet/idea",
+				"style": {
+					"navigationBarTitleText": "意见箱",
+					"enablePullDownRefresh": true
+				}
+			}
+		]
+	}],
+	"tabBar": {
+		"color": "#373737",
+		"selectedColor": "#373737",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/book/index",
+				"text": "图书",
+				"iconPath": "static/img/tabIcon/book2.png",
+				"selectedIconPath": "static/img/tabIcon/book1.png"
+				
+			},
+			{
+				"pagePath": "pages/test/index",
+				"text": "评测",
+				"iconPath": "static/img/tabIcon/test2.png",
+				"selectedIconPath": "static/img/tabIcon/test1.png"
+				
+			},
+			{
+				"pagePath": "pages/writting/index",
+				"text": "写作",
+				"iconPath": "static/img/tabIcon/writting2.png",
+				"selectedIconPath": "static/img/tabIcon/writting1.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/img/tabIcon/mine2.png",
+				"selectedIconPath": "static/img/tabIcon/mine1.png"
+				
+			}
+		]
+	},
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#ffffff"
+    }
+}
